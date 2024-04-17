@@ -1,0 +1,50 @@
+/* ====students */
+.students-table td:first-child,
+.students-table td:nth-child(2),
+.students-table thead th:first-child {
+  position: sticky;
+  left: 0;
+  top: 0;
+  z-index: 10;
+  width: 60px;
+  background-color: #e8eef0;
+  /* color: #f6f7fb; */
+}
+.students-table td:nth-child(2),
+.students-table thead th:nth-child(2) {
+  left: 60px;
+}
+.students-table thead th:first-child,
+.students-table thead th:nth-child(2) {
+  z-index: 11;
+}
+.students-table th {
+  min-width: 100px;
+  text-wrap: nowrap;
+}
+.students-table td {
+  max-width: 100px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  padding: 0 2px;
+  text-align: center;
+}
+.students-table td:first-child,
+.students-table thead th:first-child {
+  text-align: start;
+  padding-left: 1rem;
+  /* width: 70px; */
+  /* width: 10px; */
+}
+.students-table thead th {
+  background-color: #e5ebee;
+  /* color: #f6f7fb; */
+  position: sticky;
+  top: 0;
+  z-index: 9;
+}
+/* ====attendance */
+.attendance_table td{
+  text-align: center;
+}
